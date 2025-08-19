@@ -1,0 +1,1988 @@
+//Just Add +CVars= Before Not Added Values
+// https://t.me/DuloxProjectReBorn
+
+[ConsoleVariables]
+r.Streaming.MaxTempMemoryAllowed=0
+r.FXSystemPreRenderAfterPrepass=0
+r.PUBGRenderSwitch=0
+r.PUBGQualityLevel=0
+r.PUBGMaxSupportQualityLevel=0
+r.AndroidOpenglDeleteUnusedShader=0
+r.RenderTargetPoolMin=0
+r.Color.Max=0
+AimAssist=MAX
+Speedfire=MAX
+AutoAimEnable=Max
+AimAssist=MAX
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[SystemSettings]
+r.PUBGDeviceFPSLow=90
+r.PUBGDeviceFPSMid=90
+r.PUBGDeviceFPSHigh=90
+r.PUBGDeviceFPSHDR=90
+r.PUBGDeviceFPSUltraHDR=90
+AimAssist=MAX
+Speedfire=MAX
+AimAssist=MAX
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+BLACKSKY
+[SystemSettings]
+r.CylinderMaxDrawHeight=9999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+ 
+NOGRASS
+[/Script/Engine.RendererOverrideSettings]
+grass.heightScale=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+ 
+WIDE VIEW
+[/Script/Engine.LocalPlayer]
+AspectRatioAxisConstraint=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+ 
+ WHITE BODY
+ [Android DeviceProfile]
++CVars=CharacterMinShadowFactor=80
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+NO FOG
+[SystemSettings]
+r.Fog=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+ 
+NO EFFECT NO SMOKE
+[/Script/Engine.RendererSettings]
+FX.MaxCPUParticlesPerEmitter=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+ 
+LESS SMOKE
+[/Script/Engine.RendererSettings]
+FX.MaxCPUParticlesPerEmitter=0.3
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+90 FPS
+[SystemSettings] 
+r.AllowHDR 
+r.PUBGMaxSupportQualityLevel=3 
+r.PUBGDeviceFPSLow=90 
+r.PUBGDeviceFPSMid=90 
+r.PUBGDeviceFPSHigh=90 
+r.PUBGDeviceFPSHDR=90 
+r.PUBGDeviceFPSUltraHDR=90 
+r.VSync=1
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+AIM LOCATION
+[/Script.Engine.WeaponHitPartCoff] 
+Head=Max 
+Body=99
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+BOT LOBBY / PLAYER LOBBY / SPECTATE BLOCKER
+[/Script/Engine.GameSession]
+MaxPlayers=16
+MaxSpectators=2
+MaxSplitscreensPerConnection=4
+bRequiresPushToTalk=true
+//Modify With Your Wish Do 0 or 16 in MaxPlayers & Modify 0 to block Spectators in MaxSpectators
+//If MaxSplitscreensPerConnection=4 then 64 Players in Whole Lobby Of a Match If You Want To Decrese it Your Game Will Be Chobby So Try To Decrease PlayerCount
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+PHYSICS SETTINGS
+[/Script/Engine.PhysicsSettings] 
+DefaultRecoil=0 
+DefaultSRecoilInfo=0 
+DefaultRecoilKickADS=0 
+DefaultRecoilADSRotation_CP=0 
+DefaultOpenParachute=0 
+DefaultHitBoxLeanTransR=0 
+DefaultSeekAndLockTarget=5.0 
+DefaultDamageMagnifierIdx=AspectRatio_MaintainsYFOV 
+DefaultDamageWeapons=AspectRatio_MaintainsYFOV 
+DefaultMovingSpeedZ=55 
+DefaultHitEnemy=AspectRatio_MaintainsYFOV 
+EnableDamageInfo=AspectRatio_MaintainsYFOV 
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+BLACKSKY
+[SystemSettings]
+r.CylinderMaxDrawHeight=9999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+NO GRASS
+[/Script/Engine.RendererOverrideSettings]
+grass.heightScale=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+FIRING RATE
+[/Script.Engine.AutoAimingRangeConfig] 
+Speed=Max 
+RangeRate=Max 
+SpeedAim=Max
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+WIDE VIEW
+[/Script/Engine.LocalPlayer]
+AspectRatioAxisConstraint=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+NO FOG
+[SystemSettings]
+r.Fog=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+AIM ASSIST HIGH
+[SystemAim]
+WeaponAimYawRate=AspectRatio_MaintainsYFOV
+CrossHairBurstIncreaseSpeed=3.0
+BulletFireSpeed=AspectRatio_MaintainsYFOV
+CrossHairInitialSize=1
+ReloadTime=AspectRatio_MaintainsYFOV
+ShootInterval=3.0
+BulletRange=3.0
+BurstShootBulletsNum=AspectRatio_MaintainsYFOV
+WeaponAimFOV=2.0
+AspectRatioAxisConstraint=AspectRatio_MaintainYFOV
+SkeletalMeshLODBias=10
+ParticleLODBias=-5
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[ShootWeaponEntity]
+GetBurstShootBullets=AspectRatio_MaintainsYFOV
+GetBurstShootBulletsNum=AspectRatio_MaintainsYFOV
+BurstShootBullets=AspectRatio_MaintainsYFOV
+BurstShootBulletsNum=AspectRatio_MaintainsYFOV
+BurstShootBulletsNumFromEntity=AspectRatio_MaintainsYFOV
+GetBurstShootBulletsNumFromEntity=AspectRatio_MaintainsYFOV
+HandleAlShootBulletHit=AspectRatio_MaintainsYFOV
+OwnerClient_HandleAlShootBulletHit=AspectRatio_MaintainsYFOV
+RPC_OwnerClient_HandleAlShootBulletHit=AspectRatio_MaintainsYFOV
+CurBulletNumInClip=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+NO EFFECT NO SMOKE
+[/Script/Engine.RendererSettings]
+FX.MaxCPUParticlesPerEmitter=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+JUMP FLOAT
+[/Script/Engine.PhysicsSettings]
+DefaultTerminalVelocity=0f
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+GRAVITY
+[/Script/Engine.PhysicsSettings]
+DefaultGravityZ=0f
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/engine.engine]
+
+MaxSmoothedFrameRate=90
+
+MinSmoothedFrameRate=90
+
+bSmoothFrameRate=Fall
+
+MinDesiredFrameRate=90
+
+HighDamage=Max
+
+FireSpeed=Max
+
+MagicBullet=Max
+
+SmoothedFrameRateRange=(LowerBound=(Type="ERangeBoundTypes::Inclusive",Value=60),UpperBound=(Type="ERangeBoundTypes::Exclusive",Value=100))
+
+MaxPixelShaderAdditiveComplexityCount=100
+
+MaxES2PixelShaderAdditiveComplexityCount=30
+
+TimeBetweenPurgingPendingKillObjects=30
+
+bDisablePhysXHardwareSupport=Fall
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.AutoAimEnemyInfo]
+
+EnemyPawn=Max +
+
+IsCurrentWeaponSupportAutoAim=AspectRatioMaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.FanPickerConfigData]
+
+IsCheckHeadshot=Max
+
+IsHeadJudgeWithoutOwner=Max
+
+bForwardHitAim=AspectRatio_MaintainsYFOV
+
+PickerMaxCount=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.DecoratorActor]
+
+Health=Max
+
+ToHealth=Max
+
+IsDead=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.AttackFlow]
+
+BulletDamage=Max
+
+BulletDamageReduce=Max
+
+Recoil=0
+
+ReloadTime=0
+
+DefaultReloadTime=0
+
+DefaultRecoil=0
+
+DefaultShootingDeviationY=0
+
+HitTime=Max
+
+HitPositionZ=Max
+
+HitPart=Max
+
+BulletCost=Max
+
+RecoilMoveY=0
+
+RecoilMoveX=0
+
+WeaponAimFOV=AspectRatio_MaintainsYFOV
+
+BulletDamageDebuff=Max
+
+BulletDamageBuff=Max
+
+AutoAimSpeed=Max
+
+KillRealPlayerCnt=Max
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.AimFlow]
+
+AimTime=999c
+
+ShotCount=AspectRatio_MaintainsYFOV
+
+HitDistance=AspectRatio_MaintainsYFOV
+
+AimFlowID=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponAttrReloadTableStruct]
+
+HitPartCoffHead=Max
+
+HitPartCoffBody=Max
+
+HitPartCoffLimbs=Max
+
+BaseDamage=999
+
+AccessoriesVRecoilFactor=0
+
+AccessoriesHRecoilFactor=0
+
+ReloadWithNoCost=AspectRatio_MaintainsYFOV
+
+BulletFireSpeed=Max
+
+InitBulletInClip=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.LocalShootHitData]
+
+ShootInterval=AspectRatio_MaintainsYFOV
+
+BulletHitTime=Max
+
+BulletShootTime=55
+
+CurBullet=AspectRatio_MaintainsYFOV
+
+AimFov=AspectRatio_MaintainsYFOV
+
+bulletDamageReduceRatio=55.0f
+
+AutoAimSpeed=Max
+
+ShootingRecoil=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[PickupSetting]
+
+AutoPickClipType=0
+
+r.UserQualitySetting=2
+
+r.UserShadowSwitch=1
+
+r.ShadowQuality=1
+
+r.MobileContentScaleFactor=1
+
+r.UserVulkanSetting=0
+
+r.MobileHDR=0.0
+
+r.Mobile.SceneColorFormat=0.0
+
+r.UserHDRSetting=2
+
+r.ACESStyle=2
+
+r.UserMSAASetting=0
+
+r.DefaultFeature.AntiAliasing=0.0
+
+r.MobileMSAA=1.0
+
+r.MSAACount=4.0
+
+r.MaterialQualityLevel=1
+
+r.Shadow.MaxCSMResolution=1024
+
+r.Shadow.CSM.MaxMobileCascades=2
+
+r.Shadow.DistanceScale=0.5
+
+r.Mobile.DynamicObjectShadow=1
+
+r.DepthOfFieldQuality=0
+
+r.RefractionQuality=0
+
+r.StaticMeshLODDistanceScale=0.8
+
+foliage.LODDistanceScale=1.0
+
+foliage.MinLOD=0
+
+r.DetailMode=2
+
+r.MaxAnisotropy=4
+
+r.Streaming.PoolSize=300
+
+r.EmitterSpawnRateScale=1.0
+
+r.ParticleLODBias=0
+
+r.MobileNumDynamicPointLights=1
+
+diy.SetDecalBakingRTSizeInLobby=1024
+
+r.PUBGVersion=5
+
+r.MobileSimpleShader=0
+
+r.LimitBandage=0
+
+r.LimitBandage_pve=4
+
+r.LimitMedical=0
+
+r.LimitMedical_pve=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[SystemSettings]
+
+r.AllowHDR
+
+r.Vsync=0
+
+r.PUBGMaxSupportQualityLevel=3
+
+r.PUBGDeviceFPSLow=90
+
+r.PUBGDeviceFPSMid=90
+
+r.PUBGDeviceFPSHigh=90
+
+r.PUBGDeviceFPSHDR=90
+
+r.PUBGDeviceFPSUltraHDR=90
+
+r.bHasCustomNavigableGeometry=0
+
+r.CanCharacterStepUpOn=0
+
+r.IdeaOutlineThickness=0
+
+r.BoundsScale=99999
+
+r.LastRenderTimeOnScreen=0
+
+r.OnComponentHit=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.RendererOverrideSettings]
+
+r.VSync=0
+
+r.RanderDamage=0
+
+r.bSupportAllShaderPermutations=0
+
+r.bForceRecomputeTangents=0
+
+r.Recoil=0
+
+r.AttackDamage=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponRecoilConfig]
+
+r.VerticalRecoilMin=0
+
+r.VerticalRecoilMax=0
+
+r.VerticalRecoilRecoveryMin=0
+
+r.VerticalRecoilVariation=0
+
+r.VerticalRecoveryModifier=0
+
+r.VerticalRecoveryClamp=0
+
+r.VerticalRecoveryMax=0
+
+r.LeftMax=0
+
+r.RightMax=0
+
+r.VehicleRecoilScalar=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.RendererSettings]
+
+r.bMobileHDR=0
+
+r.bMobileDisableVertexFog=0
+
+r.bMobileVTFLandscape=0
+
+r.bIdeaDecalOptimizedIO=0
+
+r.MobileMSAASampleCount=0
+
+CharacterDiffuseScale=0
+
+CharacterDiffuseOffset=0
+
+CharacterDiffusePower=1
+
+CharacterMinShadowFactor=1
+
+TranslucentSortPolicy=0
+
+CustomDepthStencil=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[SystemAim]
+
++CVars=WeaponAimYawRate=AspectRatio_MaintainsYFOV
+
++CVars=CrossHairBurstIncreaseSpeed=3.0
+
++CVars=BulletFireSpeed=AspectRatio_MaintainsYFOV
+
++CVars=CrossHairInitialSize=1
+
++CVars=ReloadTime=AspectRatio_MaintainsYFOV
+
++CVars=ShootInterval=3.0
+
++CVars=BulletRange=3.0
+
++CVars=BurstShootBulletsNum=AspectRatio_MaintainsYFOV
+
++CVars=WeaponAimFOV=2.0
+
++CVars=AspectRatioAxisConstraint=AspectRatio_MaintainYFOV
+
++CVars=SkeletalMeshLODBias=10
+
++CVars=ParticleLODBias=-5
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[ShootWeaponEntity]
+
++CVars=GetBurstShootBullets=AspectRatio_MaintainsYFOV
+
++CVars=GetBurstShootBulletsNum=AspectRatio_MaintainsYFOV
+
++CVars=BurstShootBullets=AspectRatio_MaintainsYFOV
+
++CVars=BurstShootBulletsNum=AspectRatio_MaintainsYFOV
+
++CVars=BurstShootBulletsNumFromEntity=AspectRatio_MaintainsYFOV
+
++CVars=GetBurstShootBulletsNumFromEntity=AspectRatio_MaintainsYFOV
+
++CVars=HandleAlShootBulletHit=AspectRatio_MaintainsYFOV
+
++CVars=OwnerClient_HandleAlShootBulletHit=AspectRatio_MaintainsYFOV
+
++CVars=RPC_OwnerClient_HandleAlShootBulletHit=AspectRatio_MaintainsYFOV
+
++CVars=CurBulletNumInClip=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.ShootingInfo]
+
++CVars=ProbabilityFirstHit=99
+
++CVars=DurationTime=99
+
++CVars=DurationDamageMax=Max
+
++CVars=DurationEmptyShot=Max
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.TakeHitInfo]
+
++CVars=ActualDamage=99F
+
++CVars=DamageMaxRadius=99F
+
++CVars=bRadialDamage=99F
+
++CVars=bPointDamage=99F
+
++CVars=AttackerLocation=99F
+
++CVars=DamageOrigin=99F
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.UTSkillPickedTarget]
+
++CVars=IsHeadShot=0
+
++CVars=HitPos=0
+
++CVars=hitPhysMatType=0
+
++CVars=IgnoreTakeDamage=999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.BodyInstance]
+
+DOFMode=6
+
+CollisionEnabled=6
+
+MaxDepenetrationVelocity=5r
+
+MassInKgOverride=5f
+
+LinearDamping=5f
+
+AngularDamping=5f
+
+MaxAngularVelocity=5f
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.HitResult]
+
+bBlockingHit=0
+
+bStartPenetrating=9.9f
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[ScalabilityGroups]
+
+sg.ResolutionQuality=90
+
+sg.ViewDistanceQuality=4
+
+sg.AntiAliasingQuality=4
+
+sg.ShadowQuality=1
+
+sg.PostProcessQuality=3
+
+sg.TextureQuality=5
+
+sg.EffectsQuality=2
+
+sg.FoliageQuality=2
+
+sg.TrueSkyQuality=1
+
+sg.GroundClutterQuality=1
+
+sg.IBLQuality=0
+
+sg.FrameRateLimit=55
+
+sg.FrameRateCap=1
+
+sg.MSAA.CompositingSampleCount=1
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.FontRenderInfo]
+
+bClipText=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponGunRecoilData]
+
+r.WeaponGunRecoilConfig=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.RecoilPatternData]
+
+Magnitude=0
+
+Angle=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.DecoyWeaponData]
+
+r.ReloadTime=0
+
+r.DecoyDelay=0
+
+r.MinClipFractionPerSequence=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponData]
+
+TargetingFOV=5.0
+
+HoldBreathFOV=5.0
+
+bApplyLocationOffset=5.0f
+
+r.WeaponEquipDuration=0
+
+PhysicalBodyHitImpactPower=99
+
+r.WeaponReadyDuration=0
+
+bVisibleWhenUnarmed=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.DamageReason]
+
+DamageReason__None=100
+
+DamageReason__HeadShot=100
+
+DamageReason__TorsoShot=100
+
+DamageReason__PelvisShot=100
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.RatingDamage]
+
+RatingDamageScale=100
+
+FiringAccuracyRadius=100
+
+SectionRightValue=90
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.AttackAIRatingDamage]
+
+RatingDamageScale=90
+
+FiringAccuracyRadius=90
+
+SectionRightValue=90
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[ConsoleVariables]
+
+weapon.EnableBurstShootCD=0
+
+stweapon.ForbidHitDataReport=0
+
+stweapon.ForbidWeaponAntiComp=0
+
+AutoAimEnable=1
+
+AttrModifyComponentEnable=1
+
+BuffComponentEnable=1
+
+t.MaxFPS=75
+
+s.EnableCrashHandler=0
+
+s.IosUploadZipLog=0
+
+s.EnableUploadZipLog=0
+
+s.UploadCrashLog=0
+
+s.ShippingLogToDisk=0
+
+chara.CanEnableRagdoll=0
+
+r.UseProgramBinaryCache=0
+
+EnableWeaponAttackFlow=0
+
+EnableSecAttackFlow=0
+
+r.ACESStyle=7
+
+InGamePerformanceTracking.Enabled=0
+
+printanticheatlog=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script.Engine.WeaponHitPartCoff]
+
+Head=Max
+
+Body=99
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script.Engine.AutoAimingRangeConfig]
+
+Speed=Max
+
+RangeRate=Max
+
+SpeedAim=Max
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script.Engine.WonderfulCutShootDamageData]
+
+DamagePlayerID=Max
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.SystemAim]
+
+WeaponAimYawRate=AspectRatio_MaintainsYFOV
+
+CrossHairBurstIncreaseSpeed=3.0
+
+BulletFireSpeed=AspectRatio_MaintainsYFOV
+
+CrossHairInitialSize=1
+
+r.ReloadTime=0
+
+ShootInterval=3.0
+
+BulletRange=3.0
+
+BurstShootBulletsNum=AspectRatio_MaintainsYFOV
+
+WeaponAimFOV=2.0
+
+AspectRatioAxisConstraint=AspectRatio_MaintainYFOV
+
+SkeletalMeshLODBias=10
+
+ParticleLODBias=-5
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponAutoAimingComponent]
+
+IsCurrentWeaponSupportAutoAim=AspectRatioMaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.PhysicsSettings]
+
+DefaultRecoil=0
+
+DefaultSRecoilInfo=0
+
+DefaultRecoilKickADS=0
+
+DefaultRecoilADSRotation_CP=0
+
+DefaultOpenParachute=0
+
+DefaultHitBoxLeanTransR=0
+
+DefaultSeekAndLockTarget=5.0
+
+DefaultDamageMagnifierIdx=AspectRatio_MaintainsYFOV
+
+DefaultDamageWeapons=AspectRatio_MaintainsYFOV
+
+DefaultMovingSpeedZ=55
+
+DefaultHitEnemy=AspectRatio_MaintainsYFOV
+
+EnableDamageInfo=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.DeviceProfile]
+
+WeaponHitPartCoff=999
+
+Head=999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.HitPerformData]
+
+IsHeadShot=999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.tmpMagic]
+
+FindPatternEx=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponHitDetailInfo]
+
+TotalShootNum=30000
+
+HitNumEveryBodys=40000
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.SeekAndLockRPGBulletUploadData]
+
+SeekAndLockTarget=AspectRatio_MaintainsYFOV
+
+SeekAndLockStageType=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.CharacterSettings]
+
+EnebleSpeedZCharacter=false
+
+EnebleSpeedPlayerMax2=false
+
+EnebleProneSpeed=99
+
+DamageCharacter=999
+
+BinTP=0
+
+DefaultDefaultHitPartJudgment=5.5
+
+DefaultDSHitPartJudgment=0
+
+DefaultClientHitPartJudgment=99
+
+ClientAimAssistJudgment=$Value
+
+ClientAimPart=12
+
+ColorCharacter=0
+
+HitTargetPawn=999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponsSettings]
+
+DamageWeapons=99
+
+EnebleDamage=999
+
+BulletSpeed=3
+
+DamageCharacter=999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.AttackFlowSettings]   
+
+BulletDamage=5
+
+BulletDamageReduce=55
+
+Recoil=0
+
+ReloadTime=0
+
+DefaultReloadTime=0
+
+DefaultRecoil=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.CameraData]
+
+CameraFOV=3.0
+
+[/Script/Engine.DollyZoomParam]
+
+FOV=3.0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.GetMagic]
+
+FindPatternEx=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[GameSettings]
+
+Hit=99
+
+HitDamage=99
+
+AimAssist=55.0f
+
+Damage=99
+
+FindPatternEx=AspectRatio_MaintainsYFO
+
+HitTargetPawn=false
+
+CharacterDamage=99
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.tmpMagic]
+
+FindPatternEx=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponHitDetailInfo]
+
+TotalShootNum=30000
+
+HitNumEveryBodys=40000
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.SeekAndLockRPGBulletUploadData]
+
+SeekAndLockTarget=AspectRatio_MaintainsYFOV
+
+SeekAndLockStageType=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[SystemSettings]
+
+AimAssist=MAX
+
+Speedfire=MAX 
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+
+[/Script/Engine.CharacterSettings]
+
+EnebleSpeedZCharacter=false
+
+EnebleSpeedPlayerMax2=false
+
+EnebleProneSpeed=99
+
+DamageCharacter=999
+
+BinTPYTB=0
+
+DefaultDefaultHitPartJudgment=5.5
+
+DefaultDSHitPartJudgment=0
+
+DefaultClientHitPartJudgment=99
+
+ClientAimAssistJudgment=$Value
+
+ClientAimPart=12
+
+ColorCharacter=0
+
+HitTargetPawn=999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponsSettings]
+
+DamageWeapons=99
+
+EnebleDamage=999
+
+BulletSpeed=3
+
+DamageCharacter=999
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.AttackFlowSettings]
+
+BulletDamage=5
+
+BulletDamageReduce=55
+
+Recoil=0
+
+ReloadTime=0
+
+DefaultReloadTime=0
+
+DefaultRecoil=0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.CameraData]
+
+CameraFOV=3.0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.DollyZoomParam]
+
+FOV=4.0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.GetMagic]
+
+FindPatternEx=AspectRatio_MaintainsYFOV
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[GameSettings]
+
+Hit=99
+
+HitDamage=99
+
+AimAssist=55.0f
+
+Damage=99
+
+FindPatternEx=AspectRatio_MaintainsYFO
+
+HitTargetPawn=false
+
+CharacterDamage=99
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/ShadowTrackerExtra.STExtraGameInstance]
+
+AIM.predict=MAX
+
+r.bulletmove=1.0
+
+recoilvision=1.0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.GameSetting]
+
+BulletDamage=Max
+
+BulletDamageReduce=Max
+
+AimAssist=1.0
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.WeaponAttrReloadTableStruct]
+
+ReloadWithNoCost=AspectRatio_MaintainsYFOV
+
+BulletFireSpeed=Max
+
+InitBulletInClip=True
+
+-----------------------------------------------------------------------------------------------------------
+                                      CREDIT:-
+                                   @DuloxProjectReBorn
+
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[PickupSetting]
+
+AutoPickClipType=0
+
+r.UserQualitySetting=2
+
+r.UserShadowSwitch=1
+
+r.ShadowQuality=1
+
+r.MobileContentScaleFactor=0.74
+
+r.UserVulkanSetting=0
+
+r.MobileHDR=0.0
+
+r.Mobile.SceneColorFormat=0.0
+
+r.UserHDRSetting=2
+
+r.ACESStyle=2
+
+r.bin=0
+
+r.UserMSAASetting=0
+
+r.DefaultFeature.AntiAliasing=0.0
+
+r.MobileMSAA=1.0
+
+r.MSAACount=2.0
+
+r.MaterialQualityLevel=1
+
+r.Shadow.MaxCSMResolution=1024
+
+r.Shadow.CSM.MaxMobileCascades=2
+
+r.Shadow.DistanceScale=0.5
+
+r.Mobile.DynamicObjectShadow=1
+
+r.DepthOfFieldQuality=0
+
+r.RefractionQuality=0
+
+r.StaticMeshLODDistanceScale=0.8
+
+foliage.LODDistanceScale=1.0
+
+foliage.MinLOD=0
+
+r.DetailMode=2
+
+r.MaxAnisotropy=4
+
+r.Streaming.PoolSize=179
+
+r.EmitterSpawnRateScale=1.0
+
+r.ParticleLODBias=0
+
+r.MobileNumDynamicPointLights=1
+
+diy.SetDecalBakingRTSizeInLobby=1024
+
+r.PUBGVersion=5
+
+r.MobileSimpleShader=0
+
+r.LimitBandage=0
+
+r.LimitBandage_pve=4
+
+r.LimitMedical=0
+
+r.LimitMedical_pve=0
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[ScalabilityGroups]
+sg.ResolutionQuality=90
+sg.ViewDistanceQuality=1
+sg.AntiAliasingQuality=2
+sg.ShadowQuality=1
+sg.PostProcessQuality=3
+sg.TextureQuality=2
+sg.EffectsQuality=2
+sg.FoliageQuality=2
+sg.TrueSkyQuality=1
+sg.GroundClutterQuality=1
+sg.IBLQuality=0
+sg.FrameRateCap=1
+sg.MSAA.CompositingSampleCount=1
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.RendererOverrideSettings]
+
+grass.heightScale=0
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[SystemSettings]
+
+r.Fog=0
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/Script/Engine.RendererSettings]
+
+FX.MaxCPUParticlesPerEmitter=99
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[ConsoleVariables]
+
+r.CharacterMinShadowFactor=200
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[SystemSettings]
+r.PUBGDeviceFPSDef=90 
+r.PUBGDeviceFPSLow=90 
+r.PUBGDeviceFPSMid=90 
+r.PUBGDeviceFPSHigh=90 
+r.PUBGDeviceFPSHDR=90 
+r.PUBGDeviceFPSUltra=90
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[ConsoleVariables]
+
+r.Android.DisableVulkanSupport=99
+[SystemSettings]
+r.PUBGDeviceFPSLow=90
+r.PUBGDeviceFPSMid=90
+r.PUBGDeviceFPSHigh=90
+r.PUBGDeviceFPSHDR=90
+r.PUBGDeviceFPSUltraHDR=90
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[ConsoleVariables]
+r.MobileContentScaleFactor=0.75
+r.Streaming.PoolSize=5
+foliage.LODDistanceScale=0.6
+r.StaticMeshLODDistanceScale=0.8
+r.Streaming.MaxTempMemoryAllowed=0
+r.LandscapeLODBias=0.8
+foliage.MinLOD=0
+r.ParticleLODBias=1
+r.SSR.Quality=0
+r.SSS.Scale=0
+r.SSS.SampleSet=0
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[/script/engine.renderersettings]
+FX.MaxGPUParticlesPerEmitter=11
+FX.MaxParticleTilePreAllocation=11
+r.TargetPrecompileFrameTime=12
+FX.MaxCPUParticlesPerEmitter=10
+r.PredrawBatchTime=13
+r.ViewDistanceScale=0.3
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[TextureStreaming]
+poolsize=1
+MinFudgeFactor=5
+BoostPlayerTextures=0.0
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[SystemSettings]
+r.Streaming.PoolSize=15
+r.RenderTargetPoolMin=15
+r.TextureStreaming=1
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------
+
+
+[SystemSettings]
+TEXTUREGROUP_World=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_WorldNormalMap=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_WorldSpecular=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Character=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=point,MipFilter=point,NumStreamedMips=-1) TEXTUREGROUP_CharacterNormalMap=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=point,MipFilter=point,NumStreamedMips=-1) TEXTUREGROUP_CharacterSpecular=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=point,MipFilter=point,NumStreamedMips=-1) TEXTUREGROUP_Weapon=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=point,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_WeaponNormalMap=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=point,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_WeaponSpecular=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=point,MipFilter=point,NumStreamedMips=0) /*10383448203D*/ TEXTUREGROUP_Vehicle=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_VehicleNormalMap=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_VehicleSpecular=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Cinematic=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Effects=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=point,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_EffectsNotFiltered=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=point,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Skybox=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_UI=(MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Lightmap=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Shadowmap=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_RenderTarget=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_MobileFlattened=(MinLODSize=4,MaxLODSize=8,LODBias=1,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Terrain_Heightmap=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Terrain_Weightmap=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=aniso,MipFilter=point,NumStreamedMips=0) TEXTUREGROUP_Bokeh=(MinLODSize=4,MaxLODSize=8,LODBias=0,MinMagFilter=linear,MipFilter=linear,NumStreamedMips=0)
+[SystemSettings]
+r.PUBGQualityLevel=2
+r.MobileSimpleShader=1
+r.UserQualitySetting=0
+r.MaterialQualityLevel=0
+r.ShadowQuality=0
+r.Shadow.MaxCSMResolution=4
+r.Shadow.CSM.MaxMobileCascades=0
+r.Shadow.DistanceScale=0
+r.Mobile.DynamicObjectShadow=0
+r.RefractionQuality=0
+r.StaticMeshLODDistanceScale=0.8
+foliage.LODDistanceScale=0.6
+foliage.MinLOD=0
+r.DetailMode=0
+r.MaxAnisotropy=0
+r.Streaming.PoolSize=150
+r.EmitterSpawnRateScale=0.5
+r.ParticleLODBias=2
+r.PUBGVersion=5
+r.UserHDRSetting=4
+r.MobileHDR=0
+r.Mobile.SceneColorFormat=0
+r.BloomQuality=0
+r.LightShaftQuality=0
+r.Mobile.TonemapperFilm=0
+r.Mobile.AlwaysResolveDepth=0
+r.UserMSAASetting=0
+r.PUBGDeviceFPSLow=90
+r.MobileMSAA=1.99
+r.DefaultFeature.AntiAliasing=3
+r.MobileNumDynamicPointLights=0
+r.UserVulkanSetting=0
+r.TextureStreaming=1
+r.Decal.StencilSizeThreshold=0
+r.StaticMeshLODLevelLimited=0
+r.NumBufferedOcclusionQueries=0
+r.MobileSimpleShader=0
+r.ScreenPercentage=100
+r.ViewDistanceScale=0.4
+r.PostProcessAAQuality=4
+sg.PostProcessQuality=2
+r.MotionBlurQuality=1
+r.BlurGBuffer=-1
+r.BloomQuality=0
+r.FastBlurThreshold=0
+r.Upscale.Quality=0
+r.Tonemapper.GrainQuantization=0
+sg.TextureQuality=0
+r.Streaming.MipBias=2.5
+sg.EffectsQuality=0
+r.SceneColorFormat=3
+foliage.DensityScale=0
+grass.DensityScale=0
+r.MSAA.CompositingSampleCount=4
+r.SkeletalMeshLODBias=5
+r.DepthOfFieldQuality=0
+r.RenderTargetPoolMin=100
+r.Upscale.Quality=0
+r.MaxAnisotropy=0
+r.TranslucencyLightingVolumeDim=1
+r.RefractionQuality=0
+r.SceneColorFormat=3
+r.ParticleLightQuality=0
+r.MobileContentScaleFactor=0.9
+r.Streaming.MaxTempMemoryAllowed=1
+r.GraphicQuality=0.1
+
+-----------------------------------------------------------------------------------------------------------
+CREDIT:-
+@DuloxProjectReBorn
+IF YOU SHARE WITHOUT CREDIT I WILL FUCK YOUR MOM HARDLY
+-----------------------------------------------------------------------------------------------------------

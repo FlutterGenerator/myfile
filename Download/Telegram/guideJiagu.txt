@@ -1,0 +1,69 @@
+
+simple tutorial bypass 360jiagu free version with methode REGEX cmiww
+
+
+
+search smali and regex :
+
+invoke-static \{\}, Lcom/stub/StubApp;->mark\(\)V
+
+replace to 
+
+###
+
+invoke-static \{.*\}, Lcom/stub/StubApp;->interface11\(I\)V
+
+replace to 
+
+###
+
+
+
+invoke-static/range \{.*\}, Lcom/stub/StubApp;->getOrigApplicationContext\(Landroid/content/Context;\)Landroid/content/Context;\s*move-result-object (.*)
+
+replace to 
+
+###
+
+
+
+invoke-static \{.*\}, Lcom/stub/StubApp;->interface22\(I\[Ljava/lang/String;\[I\)V
+
+replace to 
+
+###
+
+
+
+for kill signature
+MD5 exept = search by string
+
+for unlock premium = com.android.providers.downloads
+
+sample app = cn.trinea.android.developertools (cz version latest version with protect 360)
+
+link app : https://www.coolapk.com/apk/cn.trinea.android.developertools
+
+gp version not protection
+
+
+
+step by step unpack and repack
+
+First dump dex app
+repair dex and repair stubapp 
+rename dex and move dump dex
+search entrance for repair entrance :
+
+\.super(.*)Application
+
+
+copy the entrance and replace to com.stupApp.app
+
+for finishing kill apps with manual or tools
+
+and done install
+
+frida -R --no-pause -f filename -i DumpDex.js
+
+./frida -f com.vmos.pro -s DumpDex.js
