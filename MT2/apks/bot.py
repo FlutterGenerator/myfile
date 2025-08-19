@@ -44,7 +44,7 @@ async def find_movie(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
     await update.message.reply_text(movie_info)
 
 def main():
-    TOKEN = "7510380907:AAHVBZvzQRT9uZo20TtqvH_cca1z-3-rqoI"
+    TOKEN = "keytelegram"
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
