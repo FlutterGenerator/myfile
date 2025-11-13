@@ -45,7 +45,7 @@ Don't Remove My Credit - Aantik Mods
 
 ## ➡️ Coin Value Hex - ``E0568B52607CA272C0035FD6``
 
-## ➡️Coin Add Termux 
+## ➡️ Coin Add Termux 
 
 ``wa mov w0, 0x1fffff``
 
@@ -97,7 +97,7 @@ User manual
 
 ``/x a12b40ee``
 
-## Example - 
+## Example
 ``0x000ce11c`` ▶️ ``a12b40ee`` ◀️ ``vmla.f64 d18, d16, d17``
 
 Search Only Function Heeding Point Automatic Jumped Your Function Termux
