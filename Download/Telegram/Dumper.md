@@ -81,14 +81,23 @@ Hill Climb Racing  All Offset Function Search Function In Lib file
 
 User manual
 #
-## 🌿 Fast - ``pkg install radare2``
+## 🌿 Fast - 
 
-## 🌿 ``cd /storage/emulated/0/MT2/apks/``
+``pkg install radare2``
 
-## 🌿 ``r2 -w libgame.so``
+## 🌿 
 
-## 🌿 ``/x a12b40ee``
+``cd /storage/emulated/0/MT2/apks/``
 
-## Example - ``0x000ce11c`` ▶️ ``a12b40ee`` ◀️ ``vmla.f64 d18, d16, d17``
+## 🌿 
+
+``r2 -w libgame.so``
+
+## 🌿 
+
+``/x a12b40ee``
+
+## Example - 
+``0x000ce11c`` ▶️ ``a12b40ee`` ◀️ ``vmla.f64 d18, d16, d17``
 
 Search Only Function Heeding Point Automatic Jumped Your Function Termux
