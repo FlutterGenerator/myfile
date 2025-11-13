@@ -1,15 +1,13 @@
-Search:
-
+# Search:
+``
 invoke.+Lcom/stub/StubApp;->getOrigApplicationContext\(Landroid/content/Context;\)Landroid/content/Context;\n\n\s{4}move-result-object [vp]\d+
+``
+# Replace:
+``###``
 
-Replace:
-
-###
-
-Search2:
-
+# Search2:
+``
 const [vp]\d+, 0x.*\n\n\s{4}invoke.+Lcom/stub/StubApp;->interface11\(I\)V
-
-Replace2:
-
-###
+``
+# Replace2:
+``###``
