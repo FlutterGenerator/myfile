@@ -1,57 +1,45 @@
-simple tutorial bypass 360jiagu free version with methode REGEX cmiww
+# simple tutorial bypass 360jiagu free version with methode REGEX cmiww
 
-search smali and regex :
+# search smali and regex :
 
-invoke-static \{\}, Lcom/stub/StubApp;->mark\(\)V
+``invoke-static \{\}, Lcom/stub/StubApp;->mark\(\)V``
 
-replace to 
+# replace to - ``###``
 
-###
+``invoke-static \{.*\}, Lcom/stub/StubApp;->interface11\(I\)V``
 
-invoke-static \{.*\}, Lcom/stub/StubApp;->interface11\(I\)V
+# replace to - ``###``
 
-replace to 
+``invoke-static/range \{.*\}, Lcom/stub/StubApp;->getOrigApplicationContext\(Landroid/content/Context;\)Landroid/content/Context;\s*move-result-object (.*)``
 
-###
+# replace to - ``###``
 
-invoke-static/range \{.*\}, Lcom/stub/StubApp;->getOrigApplicationContext\(Landroid/content/Context;\)Landroid/content/Context;\s*move-result-object (.*)
+``invoke-static \{.*\}, Lcom/stub/StubApp;->interface22\(I\[Ljava/lang/String;\[I\)V``
 
-replace to 
+# replace to - ``###``
 
-###
+# for kill signature
 
-invoke-static \{.*\}, Lcom/stub/StubApp;->interface22\(I\[Ljava/lang/String;\[I\)V
+# MD5 exept = search by string
 
-replace to 
+# for unlock premium = com.android.providers.downloads
 
-###
+# sample app = ``cn.trinea.android.developertools`` (cz version latest version with protect 360)
 
-for kill signature
-MD5 exept = search by string
+# link app : ``https://www.coolapk.com/apk/cn.trinea.android.developertools``
 
-for unlock premium = com.android.providers.downloads
+# gp version not protection
 
-sample app = cn.trinea.android.developertools (cz version latest version with protect 360)
+# step by step unpack and repack
 
-link app : https://www.coolapk.com/apk/cn.trinea.android.developertools
+# First dump dex app repair dex and repair stubapp rename dex and move dump dex search entrance for repair entrance :
 
-gp version not protection
+``\.super(.*)Application``
 
-step by step unpack and repack
+# copy the entrance and replace to ``com.stupApp.app``
 
-First dump dex app
-repair dex and repair stubapp 
-rename dex and move dump dex
-search entrance for repair entrance :
+# for finishing kill apps with manual or tools and done install
 
-\.super(.*)Application
+# ``frida -R --no-pause -f filename -i DumpDex.js``
 
-copy the entrance and replace to com.stupApp.app
-
-for finishing kill apps with manual or tools
-
-and done install
-
-frida -R --no-pause -f filename -i DumpDex.js
-
-./frida -f com.vmos.pro -s DumpDex.js
+# ``./frida -f com.vmos.pro -s DumpDex.js``
