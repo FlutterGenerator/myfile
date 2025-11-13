@@ -1,7 +1,4 @@
-
 simple tutorial bypass 360jiagu free version with methode REGEX cmiww
-
-
 
 search smali and regex :
 
@@ -17,23 +14,17 @@ replace to
 
 ###
 
-
-
 invoke-static/range \{.*\}, Lcom/stub/StubApp;->getOrigApplicationContext\(Landroid/content/Context;\)Landroid/content/Context;\s*move-result-object (.*)
 
 replace to 
 
 ###
 
-
-
 invoke-static \{.*\}, Lcom/stub/StubApp;->interface22\(I\[Ljava/lang/String;\[I\)V
 
 replace to 
 
 ###
-
-
 
 for kill signature
 MD5 exept = search by string
@@ -46,8 +37,6 @@ link app : https://www.coolapk.com/apk/cn.trinea.android.developertools
 
 gp version not protection
 
-
-
 step by step unpack and repack
 
 First dump dex app
@@ -56,7 +45,6 @@ rename dex and move dump dex
 search entrance for repair entrance :
 
 \.super(.*)Application
-
 
 copy the entrance and replace to com.stupApp.app
 
