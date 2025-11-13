@@ -4,19 +4,27 @@
 
 ``invoke-static \{\}, Lcom/stub/StubApp;->mark\(\)V``
 
-# replace to - ``###``
+# replace to - 
+
+``###``
 
 ``invoke-static \{.*\}, Lcom/stub/StubApp;->interface11\(I\)V``
 
-# replace to - ``###``
+# replace to - 
+
+``###``
 
 ``invoke-static/range \{.*\}, Lcom/stub/StubApp;->getOrigApplicationContext\(Landroid/content/Context;\)Landroid/content/Context;\s*move-result-object (.*)``
 
-# replace to - ``###``
+# replace to - 
+
+``###``
 
 ``invoke-static \{.*\}, Lcom/stub/StubApp;->interface22\(I\[Ljava/lang/String;\[I\)V``
 
-# replace to - ``###``
+# replace to - 
+
+``###``
 
 # for kill signature
 
@@ -24,9 +32,15 @@
 
 # for unlock premium = com.android.providers.downloads
 
-# sample app = ``cn.trinea.android.developertools`` (cz version latest version with protect 360)
+# sample app =
 
-# link app : ``https://www.coolapk.com/apk/cn.trinea.android.developertools``
+``cn.trinea.android.developertools``
+
+# (cz version latest version with protect 360)
+
+# link app :
+
+``https://www.coolapk.com/apk/cn.trinea.android.developertools``
 
 # gp version not protection
 
@@ -40,6 +54,6 @@
 
 # for finishing kill apps with manual or tools and done install
 
-# ``frida -R --no-pause -f filename -i DumpDex.js``
+``frida -R --no-pause -f filename -i DumpDex.js``
 
-# ``./frida -f com.vmos.pro -s DumpDex.js``
+``./frida -f com.vmos.pro -s DumpDex.js``
