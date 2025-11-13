@@ -30,7 +30,8 @@
 
 # MD5 exept = search by string
 
-# for unlock premium = com.android.providers.downloads
+# for unlock premium =
+ ``com.android.providers.downloads``
 
 # sample app =
 
@@ -50,7 +51,9 @@
 
 ``\.super(.*)Application``
 
-# copy the entrance and replace to ``com.stupApp.app``
+# copy the entrance and replace to
+
+``com.stupApp.app``
 
 # for finishing kill apps with manual or tools and done install
 
