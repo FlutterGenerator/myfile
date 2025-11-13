@@ -12,7 +12,7 @@ print(dev.center(50, '#'))
 print('\033[93m#\033[0m' * 39)
 
 # Запрашиваем оригинальный SHA1
-org_SHA1 = input('\nEnter The original SHA1-Digest (or hit enter for the default V2.4.7): ').strip()
+org_SHA1 = input('\nEnter The original SHA1-Digest (or hit enter for the default V2.4.8): ').strip()
 if not org_SHA1:
     org_SHA1 = '118676ae1076dce81c4bfebbc63660ed3708e06b'
 
