@@ -1,0 +1,62 @@
+DUDE THEFT WAR 0.9.0.8d
+
+
+FirstPersonController : Update
+Hooking [Cd]: libil2cpp.so + 0x51CAA8 -> libGoodMods.so + 0x308B8 	
+
+MPWeapon : UpdateBulletCounter
+Hooking [Cd]: libil2cpp.so + 0x550184 -> libGoodMods.so + 0x30738 	
+
+PlayerController : Update
+Hooking [Cd]: libil2cpp.so + 0x55DCA4 -> libGoodMods.so + 0x30818 	
+
+Bank : DeductMoney
+Hooking [Cd]: libil2cpp.so + 0x571B74 -> libGoodMods.so + 0x30938 	
+
+AdManager : ShowBannerBottom
+Hooking [Cd]: libil2cpp.so + 0x57A338 -> libGoodMods.so + 0x30998 	
+
+AdManager : ShowBannerTop
+Hooking [Cd]: libil2cpp.so + 0x57BD24 -> libGoodMods.so + 0x30968 	
+
+AdManager : ShowInterstitial
+Hooking [Cd]: libil2cpp.so + 0x57BD9C -> libGoodMods.so + 0x309C8 	
+
+GameManager : WantedLevelUp
+Hooking [Cd]: libil2cpp.so + 0x695674 -> libGoodMods.so + 0x30888 	
+
+MPPlayerController : Update
+Hooking [Cd]: libil2cpp.so + 0x6EFDB4 -> libGoodMods.so + 0x30A0C 	
+
+MPPlayerController : LateUpdate
+Hooking [Cd]: libil2cpp.so + 0x6F0ED4 -> libGoodMods.so + 0x3063C 	
+
+MPPlayerController : OnDestroy
+Hooking [Cd]: libil2cpp.so + 0x6FFCE0 -> libGoodMods.so + 0x30B6C 	
+
+Screen : SetResolution
+Hooking [Cd]: libil2cpp.so + 0x1BBD41C -> libGoodMods.so + 0x30A04 	
+
+Camera : WorldToScreenPoint_Injected
+__flastcall [Xa]: libil2cpp.so + 0x1BC47EC 	
+
+Camera : get_main
+__flastcall [Xa]: libil2cpp.so + 0x1BC52EC 	
+
+Component : get_transform
+__flastcall [Xa]: libil2cpp.so + 0x1BD17A4 	
+
+Transform : get_position_Injected
+__flastcall [Xa]: libil2cpp.so + 0x1BE0560 	
+
+Transform : set_position_Injected
+__flastcall [Xa]: libil2cpp.so + 0x1BE0610 	
+
+UnityUtil : get_screenHeight
+__flastcall [Xa]: libil2cpp.so + 0x1C9943C 	
+
+Hooking [O]: libGLESv2.so + 0xB124 -> libGoodMods.so + 0x2BC20 	
+
+Hooking [O]: libGLESv2.so + 0xBE90 -> libGoodMods.so + 0x2BC10 	
+
+Dzzhacks#7409
