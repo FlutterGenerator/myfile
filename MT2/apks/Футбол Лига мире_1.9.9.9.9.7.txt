@@ -1,0 +1,20 @@
+Search: IAB Not Initialized!
+
+Java: WinnerSoccer2014.java
+
+Lcom/touchtao/soccerkinggoogle/WinnerSoccer2014$22;
+
+# virtual methods
+.method public run()V
+    .registers 3
+
+    const/4 v0, 0x1
+
+    sget-object v1, Lcom/touchtao/soccerkinggoogle/WinnerSoccer2014;->mView:Lcom/touchtao/common/HQGameView;
+
+    iget-object v1, v1, Lcom/touchtao/common/HQGameView;->m_GameRender:Lcom/touchtao/common/HQGameRenderer;
+
+    invoke-virtual {v1, v0}, Lcom/touchtao/common/HQGameRenderer;->SetNeedCallBack_PayOrderDirect_PurchaseFinished(I)V
+
+    return-void
+.end method
