@@ -261,7 +261,7 @@ class ProcessManager:
 
     def execute_command(self, command: List[str], error_msg: str) -> subprocess.CompletedProcess:
         try:
-            self.ui.show_loading(f"Executing: {command[0]}")
+            self.ui.show_loading("Executing command")
             result = subprocess.run(command, capture_output=True, text=True)
             if result.returncode != 0:
                 raise ProcessException(f"{error_msg}: {result.stderr}")
