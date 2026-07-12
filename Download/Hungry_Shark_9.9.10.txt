@@ -1,0 +1,52 @@
+[BEGIN]
+Patch for Hungry Shark
+Version: 9.6.10
+Build: 10111
+
+<<< Features: >>>
+👉 NoAds Package Purchased
+👉 Unlimited Coins
+👉 Unlimited Gems
+👉 Extra Life Increased to Seven
+
+[LIB-ARMEABI-V7A]
+{"name":"libil2cpp.so"}
+
+// Namespace: 
+public static class GameProgress.BizLogic
+
+public static bool get_IsAdsFree() { }
+
+{"offset":"4BE8C0"}
+
+{"replaced":"01 00 A0 E3 1E FF 2F E1"}
+
+// Namespace: 
+[Serializable]
+public class SharkStats
+
+{"offset":"7685AC"}
+
+public int get_Currency() { }
+
+{"replaced":"D2 02 00 E3 96 09 44 E3 1E FF 2F E1"}
+
+// Namespace: 
+[Serializable]
+public class SharkStats
+
+public int get_PremiumCurrency() { }
+
+{"offset":"7686CC"}
+
+{"replaced":"D2 02 00 E3 96 09 44 E3 1E FF 2F E1"}
+
+
+// Namespace: FGOL
+public class Player : MonoBehaviour
+
+public int get_ExtraLifes() { }
+
+{"offset":"608E54"}
+
+{"replaced":"07 00 A0 E3 1E FF 2F E1"}
