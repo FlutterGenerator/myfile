@@ -47,5 +47,4 @@ public class IAPController : IDetailedStoreListener, IStoreListener // TypeDefIn
 	
 https://play.google.com/store/apps/details?id=com.inforcegames.app3dmodelling
 
-
-Version: 1.20.16 (430)
+# Version: 1.20.16 (430)
