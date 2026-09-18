@@ -6,8 +6,8 @@
 
 GooglePlay:https://play.google.com/store/apps/details?id=com.orbital.climbhigher
 
-// RVA: 0xB79A0C Offset: 0xB79A0C VA: 0xB79A0C
-	```public bool CheckIfPurchased(string productId) { }```
+// RVA: 0xB79AA8 Offset: 0xB79AA8 VA: 0xB79AA8
+	```public bool CheckIfOwned(string productId) { }```
 
 ```public class StoreManager```
 
