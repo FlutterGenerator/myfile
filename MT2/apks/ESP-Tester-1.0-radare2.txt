@@ -1,0 +1,32 @@
+Termux:
+
+pkg install radare2
+
+r2 -w libGamerAadil.so
+
+aaa
+
+iE > Dump.txt
+
+is~getOffsets
+
+82   0x0003cc60 0x0003cc60 GLOBAL FUNC   424       Java_com_aadil_modmenu_FloatingModMenuService_getOffsets
+
+s 0x0003cc60
+
+pdf
+
+┌─< 0x0003cc7c      0600000a       beq 0x3cc9c
+
+
+wx 0000a0e1 @ 0x0003cc7c  // 0000a0e1 - NOP
+
+q
+
+is~VIP
+
+25   0x0003ce08 0x0003ce08 GLOBAL FUNC   20        Java_com_aadil_modmenu_FloatingModMenuService_isVIPUser
+
+wx 0100a0e3 @ 0x0003ce08  // 0100a0e3 - TRUE
+
+q
